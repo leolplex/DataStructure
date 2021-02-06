@@ -5,7 +5,10 @@ import com.data.structures.lists.simplylinked.List;
 public class DataStructure {
     public static void main(String[] args) {
         System.out.println("Running!!");
+        //SimplyLinked();
+    }
 
+    public static void SimplyLinked() {
         List list = new List();
         list.InsertToStart("a");
         list.InsertToEnd("b");
@@ -25,6 +28,5 @@ public class DataStructure {
         System.out.println(list.ExtractStart());
         System.out.println();
         list.toList();
-
     }
 }
