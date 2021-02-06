@@ -2,7 +2,7 @@ package com.data.structures;
 
 import com.data.structures.lists.simplylinked.List;
 
-public class DataStructure {
+public class SimpleLinked {
     public static void main(String[] args) {
         System.out.println("Running!!");
         //SimplyLinked();
@@ -29,4 +29,6 @@ public class DataStructure {
         System.out.println();
         list.toList();
     }
+
+
 }
